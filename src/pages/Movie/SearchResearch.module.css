@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border-radius: .5em;
+    box-shadow: 2px 2px 2px grey;
+    background-color: white;
+    /* padding: .5em; */
+  }
+  .image{
+    width: 20%;
+    aspect-ratio: 1 / 1;
+  
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+  
+  }
+  .productName{
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+  .card:hover{
+    box-shadow: 0.5em 0.5em 0.5em grey;
+  }

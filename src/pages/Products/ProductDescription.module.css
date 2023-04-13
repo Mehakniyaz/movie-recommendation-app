@@ -1,0 +1,66 @@
+.moviedetailscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .load{
+    text-align: center;
+    font-weight: "bold";
+    font-size: 70px;
+  }
+  .movieposter {
+    width: 300px;
+    height: 450px;
+    margin-right: 2rem;
+  }
+
+.movietitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .movieinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .movieinfoitem {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .moviedescription {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .movie-details-container {
+      margin: 1rem;
+    }
+  
+    .movieposter {
+      width: 200px;
+      height: 300px;
+      margin-right: 1rem;
+    }
+  
+    .movietitle {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .movieinfoitem {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+  
+    .moviedescription {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
